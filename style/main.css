@@ -230,7 +230,9 @@ aside#sidebar .quote textarea:focus{
 }
 /* ========================madia query========================= */
 @media (max-width:768px) {
-    
+    body{
+        overflow:scroll;
+    }
     .container1 {
         width:80%;
     margin: auto;
